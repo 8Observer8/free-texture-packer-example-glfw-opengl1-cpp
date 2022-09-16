@@ -12,10 +12,6 @@
 using namespace std;
 using namespace rapidjson;
 
-enum DrawIndex {
-    Coin, MarioIdle
-};
-
 void fatalError(const string &message)
 {
     cout << message << endl;
